@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Responsive Portfolio Site</title>
+</head>
+<style>
+	body {
+		margin: 0px;
+	}
+
+	main, #featured-work .list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	main, header {
+		margin: 0 auto;
+		max-width: 1300px;
+	}
+
+	@media screen and (max-width: 411px) {
+		#jumbotron {width: 100%; order: 0;}
+		#featured-work {width: 100%; order: 1;}
+
+		#featured-work .list .item {width: 100%;}
+	}
+
+	#jumbotron img {
+		width:100%;
+	}
+
+	#featured-work .list .title {
+		text-align: center;
+	}
+
+	#featured-work .list img {
+		width: 100%;
+	}
+
+</style>
+<body>
+	<header style="height:100px; background-color:grey;">
+	</header>
+	<main>
+		<section id="jumbotron">
+			<img src="http://www.placehold.it/450x450">
+		</section>
+		<section id="featured-work">
+			<h2 class="title">Section Title</h2>
+			<div class="list">
+				<div class="item">
+					<img src="http://www.placehold.it/250x250">
+					<h4 class="title">Item Title</h4>
+				</div>
+				<div class="item">
+					<img src="http://www.placehold.it/250x250">
+					<h4 class="title">Item Title</h4> 
+				</div>
+				<div class="item">
+					<img src="http://www.placehold.it/250x250">
+					<h4 class="title">Item Title</h4>
+				</div>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
