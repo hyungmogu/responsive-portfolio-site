@@ -8,6 +8,7 @@
 <style>
 	body {
 		margin: 0px;
+
 	}
 
 	main, #featured-work .list {
@@ -17,15 +18,22 @@
 
 	main, header {
 		margin: 0 auto;
-		max-width: 1300px;
+		max-width: 900px;
 	}
 
-	@media screen and (max-width: 411px) {
+	@media screen and (max-width: 549px) {
 		#jumbotron {width: 100%; order: 0;}
 		#featured-work {width: 100%; order: 1;}
-
 		#featured-work .list .item {width: 100%;}
 	}
+
+	@media screen and (min-width: 550px) {
+		#jumbotron {width: 100%; order: 0;}
+		#featured-work {width: 100%; order: 1;}
+		#featured-work .list .item {width: 33.3333%;} 
+	}
+
+
 
 	#jumbotron img {
 		width:100%;
@@ -45,7 +53,7 @@
 	</header>
 	<main>
 		<section id="jumbotron">
-			<img src="http://www.placehold.it/450x450">
+			<img src="http://www.placehold.it/900x400">
 		</section>
 		<section id="featured-work">
 			<h2 class="title">Section Title</h2>
