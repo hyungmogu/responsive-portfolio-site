@@ -13,6 +13,10 @@ main, header {
 	max-width: 900px;
 }
 
+header, main > section {
+	margin-bottom: 0.83em; 
+} 
+
 @media screen and (max-width: 549px) {
 	#jumbotron {width: 100%; order: 0;}
 	#featured-work {width: 100%; order: 1;}
