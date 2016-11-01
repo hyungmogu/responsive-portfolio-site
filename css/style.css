@@ -15,7 +15,7 @@ main, header {
 
 header, main > section {
 	margin-bottom: 0.83em; 
-} 
+}
 
 @media screen and (max-width: 549px) {
 	#jumbotron {width: 100%; order: 0;}
@@ -30,6 +30,9 @@ header, main > section {
 }
 
 
+#jumbotron {
+	margin-bottom: 0.5em;
+} 
 
 #jumbotron img {
 	width:100%;
