@@ -38,3 +38,18 @@ main, header {
 #featured-work .list img {
 	width: 100%;
 }
+
+#featured-work .list .item > div {
+	padding: 0 10px;
+} 
+
+
+#featured-work .list .item:first-child > div {
+	padding-left: 0px;
+}
+
+#featured-work .list .item:last-child > div {
+	padding-right: 0px;
+} 
+
+
