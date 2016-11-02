@@ -46,7 +46,9 @@ header, main > section {
 
 header {
 	border-bottom: 5px solid #7d97ad;
+	padding: 1em 0;
 } 
+
 
 #jumbotron {
 	margin-bottom: 0.5em;
