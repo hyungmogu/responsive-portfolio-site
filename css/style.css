@@ -79,6 +79,10 @@ header {
 	text-align: center;
 }
 
+#featured-work .list .item .title {
+	margin-bottom: 0.15em;
+}
+
 #featured-work .list .item img {
 	width: 100%;
 }
@@ -86,6 +90,7 @@ header {
 #featured-work .list .item p {
 	text-align:center;
 	word-wrap: break-word;
+	margin-top:0.15em;
 }
 
 #featured-work .list .item > div {
