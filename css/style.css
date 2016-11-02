@@ -3,10 +3,14 @@
 	font-color: #2d3c49;
 }
 
-body {
-	margin: 0px;
+body {margin: 0px;}
 
+h1,h2,h3,h4,h5 {
+	letter-spacing: 2px;
 }
+
+h1 {font-size: 2.9em;}
+h2 {font-size: 1.9em;}
 
 header, main, #featured-work .list {
 	display: flex;
