@@ -3,15 +3,20 @@
 	color: #2d3c49;
 }
 
-body {margin: 0px;}
-
 h1,h2,h3,h4,h5 {
 	letter-spacing: 2px;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
 }
 
 h1 {font-size: 2.9em;}
 h2 {font-size: 1.9em;}
 h3 {font-size: 1.2em;}
+
+p {font-size: 0.89em;}
+
+
+body {margin: 0px;}
 
 header, main, #featured-work .list {
 	display: flex;
