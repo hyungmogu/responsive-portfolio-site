@@ -46,8 +46,12 @@ header, main > section {
 	text-align: center;
 }
 
-#featured-work .list img {
+#featured-work .list .item img {
 	width: 100%;
+}
+
+#featured-work .list .item p {
+	text-align:center;
 }
 
 #featured-work .list .item > div {
