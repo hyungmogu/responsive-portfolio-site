@@ -3,7 +3,7 @@ body {
 
 }
 
-main, #featured-work .list {
+header, main, #featured-work .list {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -18,16 +18,26 @@ header, main > section {
 }
 
 @media screen and (max-width: 549px) {
+	/*Header*/
+	#logo {width: 100%; order:0;}
+	#branding {width:100%; order: 1;}
+
+	/*Main*/
 	#jumbotron {width: 100%; order: 0;}
 	#featured-work {width: 100%; order: 1;}
 	#featured-work .list .item {width: 100%;}
 }
 
 @media screen and (min-width: 550px) {
+	/*Header*/
+	#logo {width: 50%; order: 0;}
+	#branding {width: 50%; order: 1;}
+
+	/*Main*/
 	#jumbotron {width: 100%; order: 0;}
+
 	#featured-work {width: 100%; order: 1;}
 	#featured-work .list .item {width: 33.3333%;} 
-
 	#featured-work .list .item:first-child > div { padding-left: 0px;}
 	#featured-work .list .item:last-child > div {padding-right: 0px;} 
 
