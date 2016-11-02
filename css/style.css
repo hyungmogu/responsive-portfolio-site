@@ -17,6 +17,7 @@ header, main > section {
 	margin-bottom: 1em; 
 }
 
+
 @media screen and (max-width: 549px) {
 	/*Header*/
 	#logo {width: 100%; order:0; text-align:center;}
@@ -43,6 +44,9 @@ header, main > section {
 
 }
 
+header {
+	border-bottom: 5px solid #7d97ad;
+} 
 
 #jumbotron {
 	margin-bottom: 0.5em;
