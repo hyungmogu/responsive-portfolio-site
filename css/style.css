@@ -1,3 +1,7 @@
+* {
+	font-family: 'Raleway', sans-serif;	
+}
+
 body {
 	margin: 0px;
 
@@ -70,6 +74,7 @@ header {
 
 #featured-work .list .item p {
 	text-align:center;
+	word-wrap: break-word;
 }
 
 #featured-work .list .item > div {
