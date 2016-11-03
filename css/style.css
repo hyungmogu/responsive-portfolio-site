@@ -53,6 +53,7 @@ header {
 
 #featured-work > h2.title {
 	margin-top: 0em;
+	margin-left:0.5em;
 } 
 
 #featured-work .list .title {
@@ -96,8 +97,8 @@ header {
 
 @media screen and (min-width: 550px) {
 	/*Header*/
-	#logo {width: 50%; order: 0; display: flex; align-items: center;}
-	#branding {width: 50%; order: 1; text-align: right;}
+	#logo {width: 30%; order: 0; display: flex; align-items: center;}
+	#branding {width: 70%; order: 1; text-align: right;}
 
 	/*Main*/
 	#jumbotron {width: 100%; order: 0;}
