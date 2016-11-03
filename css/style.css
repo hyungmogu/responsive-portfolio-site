@@ -13,23 +13,23 @@ h3 {font-size: 1.2em;}
 p {font-size: 0.89em;}
 
 
-body {margin: 0px;}
+body {
+	margin: 0 auto;
+	max-width: 900px;
+}
 
 header, main, #featured-work .list {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-main, header {
-	margin: 0 auto;
-	max-width: 900px;
-}
-
 header, main > section {
-	margin-bottom: 1em; 
+	margin-bottom: 1em;
+	margin-left:0.5em;
+	margin-right:0.5em; 
 }
 
-
+/*header*/
 header {
 	border-bottom: 5px solid #7d97ad;
 	padding: 1.5em 0;
@@ -38,10 +38,17 @@ header {
 #logo img {width: 90px; height: auto;} 
 
 #branding h1 { margin-bottom: 0.2em; margin-top: 0em;}
+
 #branding h3 { margin-top: 0.2em; margin-bottom: 0em;}
 
 #jumbotron img {
 	width:100%;
+}
+
+/*main*/
+#featured-work {
+	margin-left: 0em;
+	margin-right: 0em;
 }
 
 #featured-work > h2.title {
@@ -71,10 +78,10 @@ header {
 }
 
 #featured-work .list .item > div {
-	padding: 0 10px;
+	padding: 0 0.5em;
 } 
 
-
+/*responsiveness*/
 
 @media screen and (max-width: 549px) {
 	/*Header*/
@@ -97,7 +104,4 @@ header {
 
 	#featured-work {width: 100%; order: 1;}
 	#featured-work .list .item {width: 33.3333%;} 
-	#featured-work .list .item:first-child > div { padding-left: 0px;}
-	#featured-work .list .item:last-child > div {padding-right: 0px;} 
-
 }
