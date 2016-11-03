@@ -64,6 +64,8 @@ header {
 
 #logo img {width: 90px; height: auto;} 
 
+#branding h1 { margin-bottom: 0.2em;}
+#branding h3 { margin-top: 0.2em;}
 
 #jumbotron img {
 	width:100%;
@@ -81,7 +83,7 @@ header {
 } 
 
 #featured-work .list .item .title {
-	margin-bottom: 0.15em;
+	margin-bottom: 0.2em;
 	margin-top: 0.4em;
 }
 
@@ -92,7 +94,7 @@ header {
 #featured-work .list .item p {
 	text-align:center;
 	word-wrap: break-word;
-	margin-top:0.15em;
+	margin-top:0.2em;
 }
 
 #featured-work .list .item > div {
