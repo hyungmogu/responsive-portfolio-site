@@ -64,7 +64,7 @@ header {
 
 #logo img {width: 90px; height: auto;} 
 
-#branding h1 { margin-bottom: 0.2em;}
+#branding h1 { margin-bottom: 0.2em; margin-top: 0.2em;}
 #branding h3 { margin-top: 0.2em;}
 
 #jumbotron img {
