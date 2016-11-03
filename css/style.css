@@ -5,8 +5,6 @@
 
 h1,h2,h3,h4,h5 {
 	letter-spacing: 2px;
-	margin-top: 0.4em;
-	margin-bottom: 0.4em;
 }
 
 h1 {font-size: 2.9em;}
@@ -67,20 +65,24 @@ header {
 #logo img {width: 90px; height: auto;} 
 
 
-#jumbotron {
-	margin-bottom: 0.5em;
-} 
-
 #jumbotron img {
 	width:100%;
 }
 
+#featured-work > h2.title {
+	margin-top: 0em;
+} 
+
 #featured-work .list .title {
 	text-align: center;
 }
+#featured-work .list .item {
+	margin-bottom: 1.4em;
+} 
 
 #featured-work .list .item .title {
 	margin-bottom: 0.15em;
+	margin-top: 0.4em;
 }
 
 #featured-work .list .item img {
