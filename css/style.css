@@ -84,7 +84,7 @@ header {
 
 /*responsiveness*/
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 719px) {
 	/*Header*/
 	#logo {width: 100%; order:0; text-align:center;}
 	#branding {width:100%; order: 1; text-align:center;}
@@ -95,7 +95,7 @@ header {
 	#featured-work .list .item {width: 100%;}
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 720px) {
 	/*Header*/
 	#logo {width: 30%; order: 0; display: flex; align-items: center;}
 	#branding {width: 70%; order: 1; text-align: right;}
