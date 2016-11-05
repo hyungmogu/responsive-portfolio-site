@@ -3,7 +3,11 @@
 	color: #2d3c49;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	letter-spacing: 2px;
 }
 
@@ -18,54 +22,52 @@ body {
 	max-width: 900px;
 }
 
-header, main, #featured-work .list {
+header,
+main,
+#featured-work .list {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-header, main > section {
-	margin-bottom: 1em;
-	margin-left:0.5em;
-	margin-right:0.5em; 
+header,
+main > section {
+	margin: auto 0.5em 1em;
 }
 
-/*header*/
+/*Header*/
 header {
 	border-bottom: 5px solid #7d97ad;
 	padding: 1.5em 0;
 }
 
-#logo img {width: 90px; height: auto;} 
+#logo img {width: 80px; height: auto;}
 
-#branding h1 { margin-bottom: 0.2em; margin-top: 0em;}
+#branding h1 { margin: 0 0 0.2em;}
 
-#branding h3 { margin-top: 0.2em; margin-bottom: 0em;}
+#branding h3 { margin: 0.2em 0 0;}
 
 #jumbotron img {
-	width:100%;
+	width: 100%;
 }
 
-/*main*/
+/*Content*/
 #featured-work {
-	margin-left: 0em;
-	margin-right: 0em;
+	margin: auto 0 auto;
 }
 
-#featured-work > h2.title {
-	margin-top: 0em;
-	margin-left:0.5em;
-} 
+#featured-work > .title {
+	margin: 0 0 0.5em 0.5em ;
+}
 
 #featured-work .list .title {
 	text-align: center;
 }
 #featured-work .list .item {
 	margin-bottom: 1.4em;
-} 
+}
 
 #featured-work .list .item .title {
-	margin-bottom: 0.2em;
-	margin-top: 0.4em;
+	margin: 0.4em 0 0.2em;
 }
 
 #featured-work .list .item img {
@@ -73,23 +75,22 @@ header {
 }
 
 #featured-work .list .item p {
-	text-align:center;
+	text-align: center;
 	word-wrap: break-word;
-	margin-top:0.2em;
+	margin-top: 0.2em;
 }
 
 #featured-work .list .item > div {
 	padding: 0 0.5em;
-} 
+}
 
-/*responsiveness*/
 
 @media screen and (max-width: 719px) {
 	/*Header*/
-	#logo {width: 100%; order:0; text-align:center;}
-	#branding {width:100%; order: 1; text-align:center;}
+	#logo {width: 100%; order:0; text-align: center;}
+	#branding {width: 100%; order: 1; text-align: center;}
 
-	/*Main*/
+	/*Content*/
 	#jumbotron {width: 100%; order: 0;}
 	#featured-work {width: 100%; order: 1;}
 	#featured-work .list .item {width: 100%;}
@@ -100,9 +101,9 @@ header {
 	#logo {width: 30%; order: 0; display: flex; align-items: center;}
 	#branding {width: 70%; order: 1; text-align: right;}
 
-	/*Main*/
+	/*Content*/
 	#jumbotron {width: 100%; order: 0;}
 
 	#featured-work {width: 100%; order: 1;}
-	#featured-work .list .item {width: 33.3333%;} 
+	#featured-work .list .item {width: 33.3333%;}
 }
