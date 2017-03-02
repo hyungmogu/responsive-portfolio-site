@@ -1,4 +1,4 @@
-# udacity-project-responsive-portfolio-site
+# Udacity FSND 2nd Project: Build a Portfolio
 Project for the course Responsive Web Design
 
 ##Installation
