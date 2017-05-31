@@ -1,5 +1,8 @@
 # Udacity FSND 2nd Project: Build a Portfolio
-Project for the course Responsive Web Design
+
+Note: This is Udacity evaluated assignment.
+
+This is a project for the course `Responsive Web Design`.
 
 ##Installation
 
@@ -8,7 +11,7 @@ Project for the course Responsive Web Design
 
 1. Open terminal
 2. Go to a directory of choice
-3. Clone the repository by typing `git clone https://github.com/hyungmogu/udacity-project-responsive-portfolio-site/` 
+3. Clone the repository by typing `git clone https://github.com/hyungmogu/project-responsive-portfolio-site/` 
 
 
 ###Windows
@@ -17,7 +20,7 @@ Project for the course Responsive Web Design
 1. Install git bash (https://git-scm.com/downloads) 
 2. Open git bash
 3. Go to a directory of choice
-4. Clone the repository by typing `git clone https://github.com/hyungmogu/udacity-project-responsive-portfolio-site/`
+4. Clone the repository by typing `git clone https://github.com/hyungmogu/project-responsive-portfolio-site/`
 
 
 ##How to use it
